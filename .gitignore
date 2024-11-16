@@ -1,0 +1,86 @@
+# *.node_modules
+# *.env
+# *.vscode
+# *.idea
+# *.DS_Store
+
+# # Angular specific files
+# *.log
+# *.ts
+# *.js
+# *.map
+# *.d.ts
+# *.ngsummary.json
+# *.ngfactory.ts
+# *.ngstyle.ts
+# *.ngsummary.ts
+# *.ngfactory.js
+# *.ngstyle.js
+# *.ngsummary.js
+# *.ngfactory.map
+# *.ngstyle.map
+# *.ngsummary.map
+# *.ngfactory.d.ts
+# *.ngstyle.d.ts
+# *.ngsummary.d.ts
+# *.ngfactory.ngsummary.json
+# *.ngstyle.ngsummary.json
+# *.ngsummary.ngsummary.json
+# *.ngfactory.ngstyle.ts
+# *.ngstyle.ngsummary.ts
+# *.ngsummary.ngstyle.ts
+# *.ngfactory.ngstyle.js
+# *.ngstyle.ngsummary.js
+# *.ngsummary.ngstyle.js
+# *.ngfactory.ngstyle.map
+# *.ngstyle.ngsummary.map
+# *.ngsummary.ngstyle.map
+# *.ngfactory.ngstyle.d.ts
+# *.ngstyle.ngsummary.d.ts
+# *.ngsummary.ngstyle.d.ts
+# *.ngfactory.ngstyle.ngsummary.json
+# *.ngstyle.ngsummary.ngsummary.json
+# *.ngsummary.ngstyle.ngsummary.json
+
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
