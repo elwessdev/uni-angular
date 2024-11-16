@@ -1,0 +1,23 @@
+
+
+<div class="add-snap">
+  <!-- <mat-form-field>
+    <mat-label>Input</mat-label>
+    <input matInput>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Textarea</mat-label>
+    <textarea matInput></textarea>
+  </mat-form-field> -->
+  <label>Title</label>
+  <input type="text" [(ngModel)]="newSnap.title" name="title" placeholder="add here" />
+  <label>Description</label>
+  <input type="text" [(ngModel)]="newSnap.description" name="Description" placeholder="add here" />
+  <label>Image URL</label>
+  <input type="text" [(ngModel)]="newSnap.imageUrl" name="imageUrl" placeholder="add here" />
+  <label>Snaps</label>
+  <input type="number" [(ngModel)]="newSnap.snaps" name="Snaps" placeholder="add here" />
+  <button type="button" (click)="addNewSnap()">Add</button>
+</div>
+<!-- FaceSnap -->
+<app-face-snap *ngFor="let faceSnap of mySnaps" [faceSnap]='faceSnap'></app-face-snap>
